@@ -10,7 +10,7 @@ docker run \
     -e MYSQL_USER=user \
     -e MYSQL_PASSWORD=passwd \
     --network mysql-network \
-    --p 3306:3306
+    -p 3306:3306 \
     --name mysql-container \
     mysql:5.7
 
