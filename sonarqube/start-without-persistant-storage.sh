@@ -10,3 +10,10 @@ docker run \
 echo "All running containers"
 # show running container
 docker ps -a
+
+# printing information
+echo ""
+echo "######################################################################"
+# echo url to connect to phpmyadminui
+echo "To connect to sonarqube ui with browser type 'http://localhost:9000' in address bar"
+echo "######################################################################"

@@ -28,3 +28,18 @@ docker run \
 
 # show all running container
 docker ps
+
+# printing must information
+echo "######################################################################"
+
+# printing ip address of mongo-container
+echo "mongo-container ip address:"
+docker exec mongo-container hostname -i
+
+# connect mongo container server with terminal 
+echo "To connect to mongo shell use above ip address"
+
+# echo url to connect to mongo-express
+echo "To connect to mongo-express ui with browser type 'http://localhost:8081' in address bar"
+
+echo "######################################################################"
