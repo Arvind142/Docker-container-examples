@@ -1,17 +1,5 @@
 # Ubuntu
-
-###  Connect to docker container
-
-	# to connect running ubuntu container
-	
-	# to connect to bash shell
-	docker exec -it ubuntu-container bash
-	
-	# to connect to sh shell
-	docker exec -it ubuntu-container sh
-	
-	# note I'm using here ubuntu-container in place of container name/id 
-	because container is started with ubuntu-container name. find ref below in start.sh 	
+All about ubuntu image execution!
 
 ### Content of start .sh
 
@@ -32,3 +20,15 @@
 	
 	# to show all container
 	docker ps -a
+
+###  Connect to docker container
+
+	# to connect running ubuntu container
+	
+	# to connect to bash shell
+	docker exec -it ubuntu-container bash
+	
+	# to connect to sh shell
+	docker exec -it ubuntu-container sh
+	
+	# note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name. find ref below in start.sh 	
