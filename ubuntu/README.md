@@ -31,4 +31,4 @@ All about ubuntu image execution!
 	# to connect to sh shell
 	docker exec -it ubuntu-container sh
 	
-	# note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name. find ref below in start.sh 	
+	# note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name. find ref in content of start.sh section
