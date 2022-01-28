@@ -2,7 +2,7 @@
 All about sonarqube image execution!
 
 ### Content of start .sh
-We will be running sonarqube with container name as sonarqube-container and exposing 9000 port of container.
+We will be running sonarqube with container name as sonarqube-container and by exposing port 9000 of container.
 
 	# to execute sonarqube image
 	docker run \
