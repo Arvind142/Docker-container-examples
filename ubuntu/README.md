@@ -10,9 +10,10 @@
 	# to connect to sh shell
 	docker exec -it ubuntu-container sh
 	
-	# note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name. find ref below in start.sh 	
+	# note I'm using here ubuntu-container in place of container name/id 
+	because container is started with ubuntu-container name. find ref below in start.sh 	
 
-### content of start .sh
+### Content of start .sh
 
 	# to execute ubuntu image
 	docker run \
@@ -21,7 +22,7 @@
 		--name ubuntu-container \
 		ubuntu:latest
 
-### content of stop .sh
+### Content of stop .sh
 
 	# stop container
 	docker stop ubuntu-container
