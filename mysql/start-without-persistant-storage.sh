@@ -3,12 +3,15 @@ docker network create mysql-network
 
 # pulling and running mysql container
 docker run \
-    --network mysql-network \
-    -e MYSQL_ROOT_PASSWORD=my-password \
-    --name mysql-container \
-    -p 3306:3306 \
     -d \
-    mysql
+    -e MYSQL_ROOT_PASSWORD=my-password \
+    -e MYSQL_DATABASE=user-database\
+    -e MYSQL_USER=user \
+    -e MYSQL_PASSWORD=passwd \
+    --network mysql-network \
+    --p 3306:3306
+    --name mysql-container \
+    mysql:5.7
 
 # pulling and running phpymyadmin container for ui
 docker run \
