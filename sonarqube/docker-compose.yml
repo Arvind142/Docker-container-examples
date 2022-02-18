@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  sonarqube:
+    image: sonarqube:latest
+    volumes:
+      - $PWD/sonar-qube-data:/opt/sonarqube/data
+    ports:
+      - '9000:9000'
+    stop_grace_period: 60s
