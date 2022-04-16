@@ -1,10 +1,10 @@
-version: '3.5'
+version: '3.7'
 
 services:
   mysql-server:
     image: mysql:5.7
     volumes:
-      - $PWD/data:/var/lib/mysql
+      - ./data:/var/lib/mysql
     ports:
       - '3306:3306'
     environment:

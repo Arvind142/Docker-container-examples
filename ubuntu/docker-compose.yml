@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  Ubuntu-container:
+    image: ubuntu:latest
+    stdin_open: true
+    tty: true
