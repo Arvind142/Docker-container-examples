@@ -1,34 +1,25 @@
 # Ubuntu
 All about ubuntu image execution!
+### start Ubuntu container in Interactive mode.
+	# -d to run in background
+	# -it for interative mode
+	# --name to specify container name
+	docker run -d -it --name ubuntu-container ubuntu:latest
 
-### Content of start .sh
-
-	# to execute ubuntu image
-	docker run \
-		-d \
-		-it \
-		--name ubuntu-container \
-		ubuntu:latest
-
-### Content of stop .sh
-
-	# stop container
+### stop Ubuntu container
 	docker stop ubuntu-container
 	
-	# removing container
+### removing stopped container
 	docker rm ubuntu-container
-	
-	# to show all container
-	docker ps -a
 
-###  Connect to docker container
-
-	# to connect running ubuntu container
+### View all running containers
+	docker ps
 	
-	# to connect to bash shell
+### Connect to running ubuntu container
+
+#### Bash Shell
 	docker exec -it ubuntu-container bash
-	
-	# to connect to sh shell
+#### Sh
 	docker exec -it ubuntu-container sh
-	
-	# note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name. find ref in content of start.sh section
+
+> note I'm using here ubuntu-container in place of container name/id because container is started with ubuntu-container name.

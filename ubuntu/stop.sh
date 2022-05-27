@@ -1,3 +1,4 @@
+#!/bin/bash
 # stop container
 docker stop ubuntu-container
 
