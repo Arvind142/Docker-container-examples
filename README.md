@@ -28,24 +28,24 @@ I'm listing down few very basic commands to start with docker.
 	# format 
 	docker run {imageId/imagename}:{tag}
 	# example
-	$ docker run ubuntu:latest	
+	docker run ubuntu:latest	
 
 
-> assume ubuntu-container as container name for one of my running container 
+> assume ubuntu-container as container name for one of my stopped/running container 
 
 #### Start container (to start Stopped container)
 	# format 
 	docker start {container-name/containerID}
 	# example
-	$ docker start ubuntu-container	
+	docker start ubuntu-container	
 
 #### Stop container (stop running container)
 	# format 
 	docker stop {container-name/containerID}
 	# example
-	$ docker run ubuntu-container	
+	docker run ubuntu-container	
 #### View running container
-	$ docker ps	
+	docker ps	
 
 ---
 
