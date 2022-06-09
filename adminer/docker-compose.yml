@@ -1,0 +1,10 @@
+
+version: '3.7'
+
+services:
+  adminer:
+    container_name: adminer-container
+    image: adminer:latest
+    restart: always
+    ports:
+      - 5001:8080

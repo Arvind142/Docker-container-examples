@@ -1,0 +1,23 @@
+
+version: '3.7'
+
+services:
+  database:
+    container_name: postgres-container
+    image: postgres:latest
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=userDataBase
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=new_se3ret_password_test
+    ports:
+      - 5432:5432
+  adminer:
+    container_name: adminer-container
+    image: adminer:latest
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - 5001:8080

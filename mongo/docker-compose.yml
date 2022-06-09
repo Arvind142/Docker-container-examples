@@ -4,7 +4,7 @@ services:
   mongo:
     image: mongo:latest
     volumes:
-     - $PWD/data:/data/db
+     - ./data:/data/db
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=admin
