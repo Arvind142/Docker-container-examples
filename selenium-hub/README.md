@@ -27,3 +27,6 @@ _Selenium Grid is a smart proxy server that makes it easy to run tests in parall
 | Selenium Grid UI: http://localhost:5001 -                                     |
 ---------------------------------------------------------------------------------
 ```
+
+### How to use it?
+I wrote one post on the same, head to -> https://arvind-choudhary.medium.com/selenium-grid-setup-with-docker-12fb1f27d5ed
