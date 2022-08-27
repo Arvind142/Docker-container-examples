@@ -1,5 +1,7 @@
 # Ubuntu
-All about ubuntu image execution!
+
+_How to leverage Ubuntu container image i.e. how to start in interactive mode and stop container_
+
 ### start Ubuntu container in Interactive mode.
 	# -d to run in background
 	# -it for interative mode

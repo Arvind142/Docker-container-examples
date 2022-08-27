@@ -1,6 +1,6 @@
 # Postgres database container
 
-All about postrgres image execution! 
+_PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance. It was originally named POSTGRES, referring to its origins as a successor to the Ingres database developed at the University of California, Berkeley_
 
 ### Spinning up postgres container with Adminer UI
 	./start.sh
@@ -35,5 +35,4 @@ All about postrgres image execution!
 |   password: new_se3ret_password_test                                          |
 |   Database: userDataBase                                                      |
 ---------------------------------------------------------------------------------
-
 ``` 
