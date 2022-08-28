@@ -24,7 +24,7 @@ _Selenium Grid is a smart proxy server that makes it easy to run tests in parall
 
 ```
 ---------------------------------------------------------------------------------
-| Selenium Grid UI: http://localhost:5001 -                                     |
+| Selenium Grid UI: http://localhost:4444 -                                     |
 ---------------------------------------------------------------------------------
 ```
 
